@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://c1.wallpaperflare.com/preview/575/864/858/shopping-supermarket-merchandising-store.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login_card {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: transform 0.5s ease;
+  }
+  
+  .login_card:hover {
+    transform: scale(1.2);
+    background-color: skyblue;
+    background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+    border-width: 3px;
+    border-color:gold;
+    border-radius: 15px;
+  }
+
+
+  .login-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  
+  
+  .card_heading:hover{
+    transform: scale(1.5);
+    font-size: 30px;
+    color: gold;
+  }
+  
+
+  .login-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .login-button:hover {
+    background-color: #555;
+  }
+
+  .registration_card{
+    padding: 20px;
+    margin: 10px;
+    background-color: #00000077;
+  }
+
+  .registration_card:hover{
+    padding: 20px;
+    transform: scale(1.5);
+    margin: 10px;
+    background-color: #00000077;
+  }
+
+
+  .registration_card p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  

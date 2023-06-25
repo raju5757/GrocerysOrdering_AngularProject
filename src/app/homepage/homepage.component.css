@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://c1.wallpaperflare.com/preview/575/864/858/shopping-supermarket-merchandising-store.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: transform 0.5s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.2);
+    background-color: skyblue;
+    background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 15px;
+  }
+  
+  .card_heading{
+    font-size: 30px;
+    color: rgb(10, 67, 5);
+  }
+  
+  .card_heading:hover{
+    font-size: 30px;
+    color: gold;
+  }
+  
+  .card_para{
+    font-size: 15px;
+    color: rgb(11, 14, 109);
+  }
+  
+  .card_para:hover{
+    font-size: 15px;
+    color: #ffe4cd;
+  }

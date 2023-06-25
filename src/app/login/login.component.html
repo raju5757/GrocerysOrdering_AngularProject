@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>login page</title>
+  <style>  </style>
+</head>
+<body>
+  <div class="login_bg-container">
+    <div class="login_card">
+        <label>Username</label>
+        <input type="text" [(ngModel)]="username" placeholder="enter username">
+        <br>
+        <label>password</label>
+        <input type="password" placeholder="password">
+        <br>
+        <button onclick="history.back()">Go Back</button>
+        <input class="login-button" type="button" value="login" (click)="login()"/>
+    </div>
+    <div class="registration_card">
+      <form (submit)="registerBuyer()">
+        <p>Dont have account? Register Below</p><br>
+        <input type="text" name="name" [(ngModel)]="buyer.name" placeholder="Name"><br>
+        <input type="text" name="mobileno" [(ngModel)]="buyer.mobileno" placeholder="Mobile Number"><br>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
