@@ -71,7 +71,7 @@ body {
   }
   
   footer {
-    background-color: #333;
+    background-color: #0b032e;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -101,7 +101,7 @@ body {
   .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
     align-items: left;
     margin-left: 3%;
@@ -172,7 +172,7 @@ body {
 }
 
 .catagories_container{
-  justify-content: left;
+  text-align: left;
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
@@ -184,8 +184,10 @@ body {
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 .catagories_headding{
-  margin-left: 4%;
-  margin-top: 15px;
+  margin-left: 12%;
+  margin-top: 20px;
+  color: #034511;
+  font-size: 30px;
 }
 
 .dropdown{

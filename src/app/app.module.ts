@@ -10,6 +10,14 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HomepageComponent } from './homepage/homepage.component';
+import { DairyproductsComponent } from './dairyproducts/dairyproducts.component';
+import { FruitsComponent } from './fruits/fruits.component';
+import { VegitablesComponent } from './vegitables/vegitables.component';
+import { BeveragesComponent } from './beverages/beverages.component';
+import { FoodgrainsComponent } from './foodgrains/foodgrains.component';
+import { PackedfoodComponent } from './packedfood/packedfood.component';
+import { BakeryitemsComponent } from './bakeryitems/bakeryitems.component';
+import { MeatfishComponent } from './meatfish/meatfish.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +25,15 @@ import { HomepageComponent } from './homepage/homepage.component';
     HomepageComponent,
     LoginComponent,
     DashboardComponent,
-    BuyerlistComponent
+    BuyerlistComponent,
+   DairyproductsComponent,
+   FruitsComponent,
+   VegitablesComponent,
+   BeveragesComponent,
+   FoodgrainsComponent,
+   PackedfoodComponent,
+   BakeryitemsComponent,
+   MeatfishComponent,
   ],
   imports: [
     BrowserModule,

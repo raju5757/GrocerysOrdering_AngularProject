@@ -18,4 +18,8 @@ export class DashboardComponent implements OnInit{
 
       this.router.navigate(['/buyerlist'])
     }
+
+    gotodairyproductspage(){
+      this.router.navigate(['/dairyproducts'])
+    }
 }
